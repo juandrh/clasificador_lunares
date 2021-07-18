@@ -1,0 +1,28 @@
+<!doctype html>
+<!--Aplicacion web basica: se muestra la imagen elegida y el resultado de la prediccion-->
+
+
+<html>
+
+<head>
+  <title>Clasificador de lunares</title>
+</head>
+
+<body>
+  <h1>Clasificador de lunares</h1>
+
+  <img src="{{imagen}}" style="width: 128px">
+
+  <p>{{prediccion}}</p>
+  <br>
+  <button onclick="goBack()">Volver</button>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+
+</body>
+
+</html>
